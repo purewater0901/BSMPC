@@ -1,0 +1,4 @@
+default_config_path: config/dmcontrol/pixel/reacher_easy/default.yaml
+
+agent_type: BSMPC
+bisim_coef: 1.0

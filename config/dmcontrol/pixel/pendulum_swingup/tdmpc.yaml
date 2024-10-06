@@ -1,0 +1,3 @@
+default_config_path: config/dmcontrol/pixel/pendulum_swingup/default.yaml
+
+agent_type: TDMPC

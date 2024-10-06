@@ -1,0 +1,4 @@
+default_config_path: config/dmcontrol/pixel/cheetah_run/default.yaml
+
+agent_type: BSMPC
+bisim_coef: 0.001

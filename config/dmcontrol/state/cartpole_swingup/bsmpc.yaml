@@ -1,0 +1,4 @@
+default_config_path: config/dmcontrol/state/cartpole_swingup/default.yaml
+
+agent_type: BSMPC
+bisim_coef: 0.5

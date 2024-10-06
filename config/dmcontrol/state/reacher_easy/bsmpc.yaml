@@ -1,0 +1,5 @@
+default_config_path: config/dmcontrol/state/reacher_easy/default.yaml
+
+agent_type: BSMPC
+bisim_coef: 0.01
+

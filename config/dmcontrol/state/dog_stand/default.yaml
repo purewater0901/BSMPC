@@ -1,0 +1,45 @@
+# environment
+task: dog-stand
+modality: 'state'
+action_repeat: 2
+discount: 0.99
+episode_length: 1000
+train_steps: 10000000
+
+# planning
+mppi_iterations: 8
+num_samples: 512
+num_elites: 64
+mixture_coef: 0.05
+min_std: 0.05
+temperature: 0.5
+momentum: 0.1
+
+# learning
+batch_size: 512
+max_buffer_size: 1000000
+horizon: 5
+reward_coef: 0.5
+value_coef: 0.1
+consistency_coef: 2
+rho: 0.5
+lr: 0.0003
+std_scheduler_init: 0.5
+std_scheduler_duration: 25000
+horizon_scheduler_init: 1
+horizon_scheduler_duration: 25000
+grad_clip_norm: 10
+seed_steps: 5000
+soft_update_freq: 2
+soft_tau: 0.01
+
+# architecture
+encoder_hidden_dim: 256
+hidden_dim: 512
+latent_dim: 100
+
+# misc
+eval_freq: 20000
+eval_episodes: 10
+save_video: false
+save_model: false

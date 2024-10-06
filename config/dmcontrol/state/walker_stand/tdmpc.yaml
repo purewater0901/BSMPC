@@ -1,0 +1,3 @@
+default_config_path: config/dmcontrol/state/walker_stand/default.yaml
+
+agent_type: TDMPC
