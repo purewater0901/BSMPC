@@ -84,3 +84,11 @@ python main.py --config config/dmcontrol/distractor/walker_run/bsmpc.py --seed 0
 
 ```python
 python main.py --config config/dmcontrol/distractor/walker_run/tdmpc.py --seed 0
+```
+
+## Credits
+
+Some codes in this repository come from the following open-source projects. We appreciate these authors to share their valuable codes.
+
+- [TD-MPC](https://github.com/nicklashansen/tdmpc)
+- [TD-MPC2](https://github.com/nicklashansen/tdmpc2)
