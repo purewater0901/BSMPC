@@ -1,4 +1,4 @@
-# BSMPC
+# Bisimulation Metric for Model Predictive Control (BS-MPC)
 
 ## Description
 
