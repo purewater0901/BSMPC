@@ -2,7 +2,7 @@
 
 ## Description
 
-This is the official repository for BS-MPC.
+This is the official repository for BS-MPC. [Paper Link](https://arxiv.org/abs/2410.04553)
 
 ## Overview
 
